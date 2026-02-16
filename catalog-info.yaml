@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: apprise
+  description: "Apprise is a Python notification library that simplifies sending notifications to a wide array of services like Telegram, Discord, Slack, and email, providing a unified and intuitive interface for developers and system administrators."
+  annotations:
+    github.com/project-slug: sparksis/apprise
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sparksis
